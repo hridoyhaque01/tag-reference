@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<!-- Defines the document type -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>html tag reference</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- <base href="https://www.w3schools.com/" target="_blank" /> -->
+  </head>
+  <body>
+
+    <!-- header tag  -->
+    <article>
+      <header>
+        <h2>this is for header</h2>
+        <p>Posted by John Doe</p>
+      <p>Some additional information here</p>
+      </header>
+    </article>
+
+
+    <!-- nav tag  -->
+
+    <nav>
+      <a href="index.html">Home</a> |
+      <a href="pages/about.html">about</a> |
+      <a href="pages/services.html">services</a> |
+
+    </nav>
+    <br>
+
+
+    <!--  a -- Defines a hyperlink -->
+
+    <main>
+
+    <a href="pages/about.html" target="_blank">about</a>
+ <br><br>
+    <!--  abbr - Defines an abbreviation -->
+
+    <abbr title="World Health Organization">WHO</abbr> was founded in 1948.
+
+    <!-- address -- defines the contact information for the author -->
+
+    <address>
+      <h2>visit us at : dhaka, mohakhali</h2>
+      email : <a href="#">hridoyhaque.info</a>
+    </address>
+    <!-- area  *-->
+    <br />
+
+    <img
+      src="images/car.jpg"
+      alt="image-1"
+      usemap="#workmap"
+      width="400"
+      height="379"
+    />
+
+    <map name="workmap">
+      <area
+        shape="rect"
+        coords="34,44,270,350"
+        alt="pixels-image"
+        href="pages/about.html"
+      />
+    </map>
+
+    <!-- article  -->
+    <article>
+      <h2>Article Tag test</h2>
+      <p>
+        Google Chrome is a web browser developed by Google, released in 2008.
+        Chrome is the world's most popular web browser today!
+      </p>
+    </article>
+
+    <!-- aside tag  *-->
+    <p>
+      My family and I visited The Epcot center this summer. The weather was
+      nice, and Epcot was amazing! I had a great summer together with my family!
+    </p>
+
+    <aside>
+      <h4>Aside Tag</h4>
+      <p>
+        Epcot is a theme park at Walt Disney World Resort featuring exciting
+        attractions, international pavilions, award-winning fireworks and
+        seasonal special events.
+      </p>
+    </aside>
+    <!-- audio  -->
+    <audio controls>
+      <source
+        src="audio/_Kullu Nafsin Zaaiqatul Maut_ _ Islamic WhatsApp Status _ Short Story Of Young Boy _ Tilawat e Quran ( 1440 X 2560 ).mp3"
+        type="audio/mp3"
+      />
+    </audio>
+    <br />
+    <br />
+    <!-- audio  -->
+
+    <video controls width="400" height="200" preload="auto">
+      <source
+        src="video/_Kullu Nafsin Zaaiqatul Maut_ _ Islamic WhatsApp Status _ Short Story Of Young Boy _ Tilawat e Quran ( 1440 X 2560 ).webm"
+      />
+    </video>
+
+    <!-- b tag for bold text  -->
+    <p>i am <b>hridoy</b></p>
+
+    <!-- base tag -->
+    <p>
+      <a href="tags/tag_base.asp">HTML base tag</a>
+    </p>
+    <!-- bdi  -->
+    <ul>
+      <li>User <bdi>hrefs</bdi>: 60 points</li>
+      <li>User <bdi>jdoe</bdi>: 80 points</li>
+      <li>User <bdi>إيان</bdi>: 90 points</li>
+    </ul>
+    <!-- bdo  -->
+    <p><bdo dir="rtl">This paragraph will go right-to-left.</bdo></p>
+
+    <!-- blockquote -->
+
+    <blockquote cite="http://www.worldwildlife.org/who/index.html">
+      For 50 years, WWF has been protecting the future of nature. The world's
+      leading conservation organization, WWF works in 100 countries and is
+      supported by 1.2 million members in the United States and close to 5
+      million globally.
+    </blockquote>
+    <br />
+    <!-- button tag  -->
+
+    <button type="button" autofocus>Click me</button>
+    <br />
+    <!-- canvas -->
+
+    <canvas id="myCanvas">
+      Your browser does not support the canvas tag.
+    </canvas>
+
+    <!-- table and caption  -->
+
+    <table>
+      <caption>
+       Table title
+      </caption>
+      <colgroup>
+      <col span="3" style="background-color:#d6b6b6 ;"></colgroup>
+      <col  style="background-color:#c5c5ff ;">
+    </colgroup>
+      <tr>
+        <th>ISBN</th>
+        <th>Title</th>
+        <th>Price</th>
+        <th>discount</th>
+      </tr>
+      <tr>
+        <td>3476896</td>
+        <td>My first HTML</td>
+        <td>$53</td>
+        <td>15%</td>
+      </tr>
+      <tr>
+        <td>5869207</td>
+        <td>My first CSS</td>
+        <td>$49</td>
+        <td>10%</td>
+      </tr>
+    </table>
+<br>
+    <!-- cite tag for important title  -->
+    <img src="images/forest.jpg" width="200" alt="forest" />
+    <p><cite>The forest</cite> by Edward Munch. Painted in 1893.</p>
+
+    <!-- code tag for computer code -->
+
+    <p>
+      The CSS <code>background-color</code> property defines the background
+      color of an element.
+    </p>
+
+    <!-- ul li and data tag  -->
+
+    <!-- data tag use for machine-readable translation -->
+    <ul>
+      <li><data value="21053">Cherry Tomato</data></li>
+      <li><data value="21054">Beef Tomato</data></li>
+      <li><data value="21055">Snack Tomato</data></li>
+    </ul>
+
+
+
+
+    <!-- data list  -->
+<input type="text" list="browsers" id="browser" name=browser>
+    <datalist id="browsers">
+      <option value="Edge"></option>
+      <option value="Firefox"></option>
+      <option value="Chrome"></option>
+      <option value="Brave"></option>
+      <option value="Opera"></option>
+      <option value="Safari"></option>
+    </datalist>
+<br>
+
+<!-- dl and dt tag  -->
+    <dl>
+      <dt>Coffee</dt>
+      <dd>Black hot drink</dd>
+      <dt>Milk</dt>
+      <dd>White cold drink</dd>
+    </dl>
+
+    <!-- del tag for text has been deleted -->
+
+    <p>My favorite color is <del>blue</del> <ins>red</ins>!</p>
+
+<!-- em tag  -->
+    
+<p>You <em>have</em> to hurry up!</p>
+<!-- embed tag  -->
+
+<embed type="image/jpg" src="images/crime.jpg" width="300" height="200">
+
+<br><br>
+<!-- fieldset tag  -->
+
+  <form action="/action_page.php">
+    <fieldset>
+      <legend>Personalia:</legend>
+      <label for="fname">First name:</label>
+      <input type="text" id="fname" name="fname"><br><br>
+      <label for="lname">Last name:</label>
+      <input type="text" id="lname" name="lname"><br><br>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email"><br><br>
+      <label for="birthday">Birthday:</label>
+      <input type="date" id="birthday" name="birthday"><br><br>
+      <input type="submit" value="Submit">
+    </fieldset>
+  </form>
+
+<!-- figure and figcaption tag  -->
+
+  <figure>
+    <img src="images/car.jpg" alt="car" >
+    <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
+  </figure>
+
+
+    <h1>this is heading 1</h1>
+    <h2>this is heading 2</h2>
+    <h3>this is heading 3</h3>
+    <h4>this is heading 4</h4>
+    <h5>this is heading 5</h5>
+    <h6>this is heading 6</h6>
+
+    <!-- hr tag  -->
+<hr>
+
+<p><i>Lorem ipsum</i> is the most popular filler text in history.</p>
+
+<!-- iframe tag  -->
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/oS_1G1Taqpk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<br>
+<!-- input tag -->
+<form action="">
+  <label for="button">button</label>
+<input type="button" id="button" value="submit">
+<br>
+
+  <label for="checkbox">checkbox</label>
+<input type="checkbox" id="checkbox">
+<br>
+
+  <label for="color">color</label>
+<input type="color" id="color">
+<br>
+
+  <label for="datetime-local">datetime-local</label>
+  <input type="datetime-local" id="datetime-local">
+  <br>
+
+  <label for="email">email</label>
+  <input type="email" id="email">
+  <br>
+
+  <label for="file">file</label>
+  <input type="file" id="file">
+  <br>
+
+  <label for="hidden">hidden</label>
+  <input type="hidden" id="hidden">
+  <br>
+
+  <label for="month">month</label>
+  <input type="month" id="month">
+  <br>
+
+  <label for="image">image</label>
+  <input type="image" id="image">
+  <br>
+
+  <label for="number">number</label>
+  <input type="number" id="number">
+  <br>
+
+  <label for="password">password</label>
+  <input type="password" id="password">
+  <br>
+
+  <label for="radio">radio</label>
+  <input type="radio" id="radio">
+  <br>
+
+  <label for="range">range</label>
+  <input type="range" id="range">
+  <br>
+
+  <label for="reset">reset</label>
+  <input type="reset" id="reset">
+  <br>
+
+  <label for="search">search</label>
+  <input type="search" id="search">
+  <br>
+
+  <label for="tel" >tel</label>
+  <input type="tel" id="tel">
+  <br>
+
+  <label for="text">text</label>
+  <input type="text" id="text"> 
+  <br>
+
+  <label for="time">time</label>
+  <input type="time" id="time">
+  <br>
+
+  <label for="submit">submit</label>
+  <input type="submit" id="submit">
+  <br>
+
+  <label for="url">url</label>
+  <input type="url" id="url">
+  <br>
+
+  <label for="week">week</label>
+  <input type="week" id="week">
+  <br>
+
+
+
+</form>
+
+
+
+<!-- ins tag  -->
+
+<p>My favorite color is <del>blue</del> <ins>red</ins>!</p>
+<!-- kbd tag  -->
+
+<p>press <kbd>ctrl</kbd> + <kbd>A</kbd> to select All</p>
+
+<!-- mark tag -->
+
+
+<p>do not forget to but <mark>milk</mark> today</p>
+
+
+<!-- ul ol li  -->
+
+<ol>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
+
+<ul>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ul>
+
+
+<!-- meter tag  -->
+
+<label for="disk_c">Disk usage C:</label>
+
+<meter id="disk_c" value="3" min="0" max="10">3 out of 10</meter>
+
+<label for="disk_s">Disk usage D:</label>
+
+<meter id="disk_c" value="0.6" min="0" max="10">60%</meter>
+
+</main>
+
+<footer>
+  <p>Author: Hege Refsnes</p>
+  <p><a href="mailto:hege@example.com">hege@example.com</a></p>
+</footer>
+
+
+    <script>
+      var c = document.getElementById("myCanvas");
+      var ctx = c.getContext("2d");
+      ctx.fillStyle = "red";
+      ctx.fillRect(20, 20, 75, 50);
+
+      //Turn transparency on
+      ctx.globalAlpha = 0.2;
+      ctx.fillStyle = "blue";
+      ctx.fillRect(50, 50, 75, 50);
+      ctx.fillStyle = "green";
+      ctx.fillRect(80, 80, 75, 50);
+    </script>
+  </body>
+</html>
